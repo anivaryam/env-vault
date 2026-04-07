@@ -1,0 +1,31 @@
+{
+  "name": "env-vault",
+  "version": "0.1.0",
+  "description": "Encrypted .env file manager powered by random-universe-cipher",
+  "type": "module",
+  "bin": {
+    "env-vault": "./bin/env-vault.js"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "keywords": [
+    "env",
+    "vault",
+    "encryption",
+    "dotenv",
+    "secrets"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "commander": "^13.0.0",
+    "random-universe-cipher": "^1.0.2"
+  }
+}
